@@ -1,7 +1,14 @@
+import "./App.css";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+import EmployeeList from "./components/EmployeeList";
+
 function App() {
   return (
-    <div>
-      <h1>Employee Directory</h1>
+    <div className="app">
+      <Header />
+      <SearchBar />
+      <EmployeeList />
     </div>
   );
 }
